@@ -3,7 +3,7 @@
 
 This package can help you to interact with Cfx.re.
 
-<img align="right" src="https://avatars.githubusercontent.com/u/25160833?s=200&v=4" height=15% width=15%>
+<img align="right" src="jss://avatars.githubusercontent.com/u/25160833?s=200&v=4" height=15% width=15%>
 
 <hr>
 <br>
@@ -32,92 +32,92 @@ const cfx = require("cfx-api");
 ### 
 
 ### Returns: Endpoint (e. g. xxxxxx)
-```http
+```js
   server.getEndpoint()
 ```
 
 ### Returns: Gametype (e. g. Roleplay)
-```http
+```js
   server.getGametype()
 ```
 
 ### Returns: getHostname (e. g. ^7YOURROLEPLAYSERVER ^5TEST-BASED)
-```http
+```js
   server.getHostname()
 ```
 
 ### Returns: getMapname (e. g. San Andreas)
-```http
+```js
   server.getMapname()
 ```
 
 ### Returns: getMapname (e. g. San Andreas)
-```http
+```js
   server.getMapname()
 ```
 
 ### Returns: getPlayerCount (e. g. 10)
-```http
+```js
   server.getPlayerCount()
 ```
 
 ### Returns: getMaxSlots (e. g. 1000)
-```http
+```js
   server.getMaxSlots()
 ```
 
 ### Returns: getResources (As array; e. g. ["testscript1", "testscript2"])
-```http
+```js
   server.getResources()
 ```
 
 ### Returns: getServerVersion (e. g. FXServer-master SERVER v1.0.0.5848 win32)
-```http
+```js
   server.getServerVersion()
 ```
 
 ### Returns: getVars (As array; e. g. Voice, Discord, OneSync)
-```http
+```js
   server.getVars()
 ```
 
 ### Returns: getOnlinePlayers (As array; A player includes: endpoint, id, identifiers, name and ping)
-```http
+```js
   server.getOnlinePlayers()
 ```
 
 ### Returns: getServerOwnerId (Return the ID from the owner)
-```http
+```js
   server.getServerOwnerId()
 ```
 
 ### Returns: getServerOwnerName (Return the Name from the owner)
-```http
+```js
   server.getServerOwnerName()
 ```
 
 ### Returns: isServerPrivate (Return true or false)
-```http
+```js
   server.isServerPrivate()
 ```
 
 ### Returns: getUpvotes (Current Upvotes)
-```http
+```js
   server.getUpvotes()
 ```
 
 ### Returns: getBurstUpvotes (Current BurstUpvotes)
-```http
+```js
   server.getBurstUpvotes()
 ```
 
 ### Returns: getServerPatreonBadge (NONE, AURUM, ARGENTUM, PLATINUM)
-```http
+```js
   server.getServerPatreonBadge()
 ```
 
 ### Returns: getJson (Return everything about the Server; As with the master list also)
-```http
+```js
   server.getJson()
 ```
 
@@ -128,16 +128,16 @@ const cfx = require("cfx-api");
 ### 
 
 ### Returns: isOnline (True/False)
-```http
+```js
   status.isOnline()
 ```
 
 ### Returns: getPageJson (e. g. latest update, time_zone, ...)
-```http
+```js
   status.getPageJson()
 ```
 
 ### Returns: getStatusJson (indicator, description; e. g. All Systems Operational)
-```http
+```js
   status.getStatusJson()
 ```

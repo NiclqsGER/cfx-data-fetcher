@@ -1,0 +1,32 @@
+{
+  "name": "@niclqs/cfx-data-fetcher",
+  "version": "1.0.0",
+  "description": "The API supports you to get data from a FiveM or RedM server",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niclas-Kedzierski/cfx-data-fetcher.git"
+  },
+  "author": "Niclas Kedzierski <Niclas@Kedziersk-i.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niclas-Kedzierski/cfx-data-fetcher/issues"
+  },
+  "homepage": "https://github.com/Niclas-Kedzierski/cfx-data-fetcher#readme",
+  "keywords": [
+    "cfx.re",
+    "fivem",
+    "redm",
+    "api",
+    "data",
+    "fetcher",
+    "cfx-api-fetcher",
+    "node"
+  ],
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}

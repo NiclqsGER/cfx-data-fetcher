@@ -11,7 +11,7 @@ This package can help you to interact with Cfx.re.
 ## How to install
 
 ```bash
-npm i cfx-data-fetcher
+npm i @niclqs/cfx-data-fetcher
 ```
 
 ## Basic template:

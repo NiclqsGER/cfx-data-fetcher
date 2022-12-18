@@ -17,7 +17,7 @@ npm i @niclqs/cfx-data-fetcher
 ## Basic template:
 
 ```js
-const cfx = require("cfx-api");
+const cfx = require('@niclqs/cfx-data-fetcher');
 
 (async () => {
     const server = await cfx.fetchServerData('xxxxxx');

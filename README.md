@@ -24,6 +24,11 @@ const cfx = require('@niclqs/cfx-data-fetcher');
     const status = await cfx.fetchCfxStatus();
 })();
 ```
+## Important:
+It is always important to check the status and server of any service or application you are using. This can prevent errors and failures from occurring, and ensure that you are getting the most out of the service.
+
+Try-Catch is your friend!
+(Written by ChatGPT)
 
 <br>
 <br>

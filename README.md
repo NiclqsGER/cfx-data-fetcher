@@ -1,5 +1,5 @@
 
-# CFX-Data-Fetcher (12/2022 Working!)
+# CFX-Data-Fetcher
 
 This package can help you to interact with Cfx.re.
 
